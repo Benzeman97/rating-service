@@ -1,0 +1,11 @@
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/arch=x86_64
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/name=Local
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/os=win32
+configDescList=org.jboss.tools.wtp.server.launchbar.ModuleDescriptorType\:rating-data-service,org.eclipse.launchbar.core.descriptorType.default\:movie-catalog-service - MovieCatalogServiceApplication,org.jboss.tools.wtp.server.launchbar.ModuleDescriptorType\:movie-catalog-service,org.jboss.tools.wtp.server.launchbar.ModuleDescriptorType\:movie-info-service,org.eclipse.launchbar.core.descriptorType.default\:movie-info-service - MovieInfoServiceApplication
+eclipse.preferences.version=1
+org.eclipse.launchbar.core.descriptorType.default\:movie-catalog-service\ -\ MovieCatalogServiceApplication/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:movie-catalog-service\ -\ MovieCatalogServiceApplication/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
+org.eclipse.launchbar.core.descriptorType.default\:movie-info-service\ -\ MovieInfoServiceApplication/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:movie-info-service\ -\ MovieInfoServiceApplication/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
+org.jboss.tools.wtp.server.launchbar.ModuleDescriptorType\:movie-catalog-service/activeLaunchTarget=null\:---
+org.jboss.tools.wtp.server.launchbar.ModuleDescriptorType\:movie-info-service/activeLaunchTarget=null\:---

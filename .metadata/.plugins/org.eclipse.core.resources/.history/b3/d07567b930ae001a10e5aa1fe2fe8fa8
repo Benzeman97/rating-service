@@ -1,0 +1,5 @@
+package com.benz.catalog.model;
+
+public class MovieCatalog {
+
+}

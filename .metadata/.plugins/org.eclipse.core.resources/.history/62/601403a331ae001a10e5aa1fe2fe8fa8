@@ -1,0 +1,5 @@
+package com.benz.catalog.controller;
+
+public class MovieCatalogController {
+
+}
