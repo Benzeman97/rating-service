@@ -13,8 +13,8 @@
   <path value="C:/Users/User/.m2/repository/org/yaml/snakeyaml/1.26/snakeyaml-1.26.jar"/>
   <path value="C:/Users/User/.m2/repository/org/springframework/boot/spring-boot-test-autoconfigure/2.3.1.RELEASE/spring-boot-test-autoconfigure-2.3.1.RELEASE.jar"/>
   <path value="C:/Users/User/.m2/repository/org/springframework/boot/spring-boot-starter-tomcat/2.3.1.RELEASE/spring-boot-starter-tomcat-2.3.1.RELEASE.jar"/>
-  <path value="C:/Users/User/.m2/repository/org/glassfish/hk2/hk2-api/2.6.1/hk2-api-2.6.1.jar"/>
   <path value="C:/Users/User/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.11.0/jackson-databind-2.11.0.jar"/>
+  <path value="C:/Users/User/.m2/repository/org/glassfish/hk2/hk2-api/2.6.1/hk2-api-2.6.1.jar"/>
   <path value="C:/Users/User/.m2/repository/org/slf4j/jul-to-slf4j/1.7.30/jul-to-slf4j-1.7.30.jar"/>
   <path value="C:/Users/User/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar"/>
   <path value="C:/Users/User/.m2/repository/org/mockito/mockito-core/3.3.3/mockito-core-3.3.3.jar"/>
@@ -28,16 +28,16 @@
    <libraries>
     <library class="tld">
      <id class="model-object"
-      path="FileSystems/lib-spring-webmvc-5.2.7.RELEASE.jar/meta-inf/spring-form.tld" project="movie-info-service"/>
+      path="FileSystems/lib-spring-webmvc-5.2.7.RELEASE.jar/meta-inf/spring-form.tld" project="movie-catalog-service"/>
     </library>
     <library class="tld">
      <id class="model-object"
-      path="FileSystems/lib-spring-webmvc-5.2.7.RELEASE.jar/meta-inf/spring.tld" project="movie-info-service"/>
+      path="FileSystems/lib-spring-webmvc-5.2.7.RELEASE.jar/meta-inf/spring.tld" project="movie-catalog-service"/>
     </library>
    </libraries>
   </path>
-  <path value="C:/Users/User/.m2/repository/org/glassfish/hk2/hk2-utils/2.6.1/hk2-utils-2.6.1.jar"/>
   <path value="C:/Users/User/.m2/repository/jakarta/validation/jakarta.validation-api/2.0.2/jakarta.validation-api-2.0.2.jar"/>
+  <path value="C:/Users/User/.m2/repository/org/glassfish/hk2/hk2-utils/2.6.1/hk2-utils-2.6.1.jar"/>
   <path value="C:/Users/User/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.11.0/jackson-datatype-jsr310-2.11.0.jar"/>
   <path value="C:/Users/User/.m2/repository/org/glassfish/hk2/class-model/2.6.1/class-model-2.6.1.jar"/>
   <path value="C:/Users/User/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.11.0/jackson-annotations-2.11.0.jar"/>
@@ -80,20 +80,20 @@
   <path value="C:/Users/User/.m2/repository/org/glassfish/jersey/core/jersey-common/2.30.1/jersey-common-2.30.1.jar"/>
   <path value="C:/Users/User/.m2/repository/org/glassfish/jersey/core/jersey-server/2.30.1/jersey-server-2.30.1.jar"/>
   <path value="C:/Users/User/.m2/repository/org/springframework/spring-beans/5.2.7.RELEASE/spring-beans-5.2.7.RELEASE.jar"/>
-  <path value="C:/Users/User/.m2/repository/org/springframework/spring-test/5.2.7.RELEASE/spring-test-5.2.7.RELEASE.jar"/>
   <path value="C:/Users/User/.m2/repository/com/fasterxml/jackson/module/jackson-module-jaxb-annotations/2.11.0/jackson-module-jaxb-annotations-2.11.0.jar"/>
   <path value="C:/Users/User/.m2/repository/io/netty/netty-buffer/4.1.50.Final/netty-buffer-4.1.50.Final.jar"/>
+  <path value="C:/Users/User/.m2/repository/org/springframework/spring-test/5.2.7.RELEASE/spring-test-5.2.7.RELEASE.jar"/>
   <path value="C:/Users/User/.m2/repository/org/springframework/boot/spring-boot-starter-test/2.3.1.RELEASE/spring-boot-starter-test-2.3.1.RELEASE.jar"/>
   <path value="C:/Users/User/.m2/repository/org/apache/tomcat/embed/tomcat-embed-websocket/9.0.36/tomcat-embed-websocket-9.0.36.jar"/>
   <path value="C:/Users/User/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.11.0/jackson-core-2.11.0.jar"/>
-  <path value="C:/Users/User/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.6.2/junit-jupiter-engine-5.6.2.jar"/>
   <path value="C:/Users/User/.m2/repository/org/apache/logging/log4j/log4j-api/2.13.3/log4j-api-2.13.3.jar"/>
+  <path value="C:/Users/User/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.6.2/junit-jupiter-engine-5.6.2.jar"/>
   <path value="C:/Users/User/.m2/repository/org/glassfish/jersey/containers/jersey-container-servlet-core/2.30.1/jersey-container-servlet-core-2.30.1.jar"/>
   <path value="C:/Users/User/.m2/repository/org/glassfish/hk2/hk2-runlevel/2.6.1/hk2-runlevel-2.6.1.jar"/>
   <path value="C:/Users/User/.m2/repository/org/springframework/spring-expression/5.2.7.RELEASE/spring-expression-5.2.7.RELEASE.jar"/>
   <path value="C:/Users/User/.m2/repository/io/projectreactor/reactor-test/3.3.6.RELEASE/reactor-test-3.3.6.RELEASE.jar"/>
-  <path value="C:/Users/User/.m2/repository/jakarta/xml/bind/jakarta.xml.bind-api/2.3.3/jakarta.xml.bind-api-2.3.3.jar"/>
   <path value="C:/Users/User/.m2/repository/net/minidev/json-smart/2.3/json-smart-2.3.jar"/>
+  <path value="C:/Users/User/.m2/repository/jakarta/xml/bind/jakarta.xml.bind-api/2.3.3/jakarta.xml.bind-api-2.3.3.jar"/>
   <path value="C:/Users/User/.m2/repository/org/springframework/boot/spring-boot-starter-validation/2.3.1.RELEASE/spring-boot-starter-validation-2.3.1.RELEASE.jar"/>
   <path value="C:/Users/User/.m2/repository/org/springframework/boot/spring-boot-starter-logging/2.3.1.RELEASE/spring-boot-starter-logging-2.3.1.RELEASE.jar"/>
   <path value="C:/Users/User/.m2/repository/org/glassfish/hk2/hk2-core/2.6.1/hk2-core-2.6.1.jar"/>
@@ -120,8 +120,8 @@
   <path value="C:/Users/User/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.6.2/junit-jupiter-params-5.6.2.jar"/>
   <path value="C:/Users/User/.m2/repository/io/netty/netty-codec/4.1.50.Final/netty-codec-4.1.50.Final.jar"/>
   <path value="C:/Users/User/.m2/repository/org/synchronoss/cloud/nio-multipart-parser/1.1.0/nio-multipart-parser-1.1.0.jar"/>
-  <path value="C:/Users/User/.m2/repository/org/assertj/assertj-core/3.16.1/assertj-core-3.16.1.jar"/>
   <path value="C:/Users/User/.m2/repository/io/netty/netty-common/4.1.50.Final/netty-common-4.1.50.Final.jar"/>
+  <path value="C:/Users/User/.m2/repository/org/assertj/assertj-core/3.16.1/assertj-core-3.16.1.jar"/>
   <path value="C:/Users/User/.m2/repository/org/springframework/boot/spring-boot-autoconfigure/2.3.1.RELEASE/spring-boot-autoconfigure-2.3.1.RELEASE.jar"/>
   <path value="C:/Users/User/.m2/repository/jakarta/ws/rs/jakarta.ws.rs-api/2.1.6/jakarta.ws.rs-api-2.1.6.jar"/>
   <path value="C:/Users/User/.m2/repository/org/mockito/mockito-junit-jupiter/3.3.3/mockito-junit-jupiter-3.3.3.jar"/>
@@ -135,11 +135,10 @@
   <path value="C:/Users/User/.m2/repository/org/springframework/spring-aop/5.2.7.RELEASE/spring-aop-5.2.7.RELEASE.jar"/>
  </paths>
  <validation>
-  <core validator-id="jboss.cdi.core"/>
   <el>
-   <linked-el length="23" name="%0" offset="2449" path="%1"/>
-   <linked-el length="23" name="%2" offset="2449" path="%1"/>
-   <linked-el length="23" name="%3" offset="2449" path="%1"/>
+   <linked-el length="23" name="%0" offset="2527" path="%1"/>
+   <linked-el length="23" name="%2" offset="2527" path="%1"/>
+   <linked-el length="23" name="%3" offset="2527" path="%1"/>
   </el>
  </validation>
  <aliases>
