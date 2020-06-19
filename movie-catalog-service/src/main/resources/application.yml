@@ -7,3 +7,13 @@ spring:  datasource:    url: "jdbc:oracle:thin:@localhost:1521:orcl"
     driver-class-name: oracle.jdbc.OracleDriver
   jpa:    database-platform: org.hibernate.dialect.Oracle10gDialect
   application:    name: movie-catalog-service
+    
+rating:
+    data:
+      service:
+          url: http://rating-data-service/rating/user/
+          
+movie:
+   info:
+     service:
+          url: http://movie-info-service/movieInfo/

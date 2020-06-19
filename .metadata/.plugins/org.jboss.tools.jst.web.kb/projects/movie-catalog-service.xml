@@ -216,13 +216,31 @@
    <linked-el length="23" name="%0" offset="2522" path="%1"/>
    <linked-el length="23" name="%2" offset="2522" path="%1"/>
    <linked-el length="23" name="%3" offset="2522" path="%1"/>
+   <linked-el length="27" name="%4" offset="822" path="%5"/>
+   <linked-el length="27" name="%6" offset="822" path="%5"/>
+   <linked-el length="27" name="%7" offset="822" path="%5"/>
+   <linked-el length="27" name="%8" offset="822" path="%5"/>
+   <linked-el length="28" name="%9" offset="747" path="%5"/>
+   <linked-el length="28" name="%10" offset="747" path="%5"/>
+   <linked-el length="28" name="%11" offset="747" path="%5"/>
+   <linked-el length="28" name="%12" offset="747" path="%5"/>
   </el>
  </validation>
  <aliases>
+  <alias path="cloud.version" value="%3"/>
+  <alias path="movie" value="%7"/>
+  <alias path="/movie-catalog-service/pom.xml" value="%1"/>
+  <alias
+   path="/movie-catalog-service/src/main/java/com/benz/catalog/services/MovieCatalogService.java" value="%5"/>
+  <alias path="movie.info.service" value="%8"/>
+  <alias path="rating" value="%9"/>
+  <alias path="rating.data" value="%10"/>
+  <alias path="rating.data.service.url" value="%11"/>
   <alias path="spring" value="%0"/>
   <alias path="cloud" value="%2"/>
-  <alias path="cloud.version" value="%3"/>
-  <alias path="/movie-catalog-service/pom.xml" value="%1"/>
+  <alias path="movie.info.service.url" value="%4"/>
+  <alias path="movie.info" value="%6"/>
+  <alias path="rating.data.service" value="%12"/>
  </aliases>
  <includes/>
  <uris/>
