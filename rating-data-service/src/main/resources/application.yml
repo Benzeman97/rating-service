@@ -7,4 +7,5 @@ spring:  datasource:    url: "jdbc:oracle:thin:@localhost:1521:orcl"
     username: HR
     password: 14292
     driver-class-name: oracle.jdbc.OracleDriver
-  jpa:    database-platform: org.hibernate.dialect.Oracle10gDialect      
+  jpa:    database-platform: org.hibernate.dialect.Oracle10gDialect    
+  application:    name: rating-data-service  
