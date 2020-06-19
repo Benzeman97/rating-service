@@ -1,10 +1,14 @@
 package com.benz.catalog.services;
 
+import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Collectors;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
+import org.springframework.cloud.client.ServiceInstance;
+import org.springframework.cloud.client.discovery.DiscoveryClient;
 import org.springframework.stereotype.Service;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.client.RestTemplate;
@@ -19,6 +23,9 @@ public class MovieCatalogService {
 	
 //	@Autowired
 //	RestTemplate restTemplate;
+	
+	@Autowired
+	DiscoveryClient discoverClient;
 	
 	@Autowired
 	WebClient.Builder webClient_builder;
@@ -56,5 +63,20 @@ public class MovieCatalogService {
 		}).collect(Collectors.toList());
 		
 		
+	}
+	
+	public void discoveryClient()
+	{
+		List<ServiceInstance> instances=discoverClient.getInstances("rating-data-service");
+	
+	        
+	        for(ServiceInstance instance:instances)
+	        {
+	        	 System.out.println(instance.getServiceId());
+	        	 System.out.println(instance.getHost());
+	        	 System.out.println(instance.getPort());
+	        	 System.out.println(instance.getUri());
+	        }
+	       
 	}
 }

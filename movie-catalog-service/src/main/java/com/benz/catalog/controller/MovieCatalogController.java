@@ -27,4 +27,10 @@ public class MovieCatalogController {
 	{
 		return movie_catalog_service.getMovieCatalog(userId);
 	}
+	
+	@GetMapping("/discoveryClient")
+	public void discoveryClient()
+	{
+		movie_catalog_service.discoveryClient();
+	}
 }
