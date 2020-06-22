@@ -7,5 +7,7 @@ spring:  datasource:    url: "jdbc:oracle:thin:@localhost:1521:orcl"
     driver-class-name: oracle.jdbc.OracleDriver
   jpa:    database-platform: org.hibernate.dialect.Oracle10gDialect   
   application:    name: movie-info-service
-    
-    
+  
+movie:  
+  api_key: d66b748ee1f3ea82094e6aa19d7db744
+  url: https://api.themoviedb.org/3/movie/

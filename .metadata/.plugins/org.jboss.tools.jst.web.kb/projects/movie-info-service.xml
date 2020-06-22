@@ -215,12 +215,21 @@
    <linked-el length="23" name="%0" offset="2305" path="%1"/>
    <linked-el length="23" name="%2" offset="2305" path="%1"/>
    <linked-el length="23" name="%3" offset="2305" path="%1"/>
+   <linked-el length="18" name="%4" offset="422" path="%5"/>
+   <linked-el length="18" name="%6" offset="422" path="%5"/>
+   <linked-el length="14" name="%6" offset="480" path="%5"/>
+   <linked-el length="14" name="%7" offset="480" path="%5"/>
   </el>
  </validation>
  <aliases>
   <alias path="spring" value="%0"/>
   <alias path="cloud" value="%2"/>
   <alias path="cloud.version" value="%3"/>
+  <alias path="movie.api_key" value="%4"/>
+  <alias path="movie" value="%6"/>
+  <alias path="movie.url" value="%7"/>
+  <alias
+   path="/movie-info-service/src/main/java/com/benz/info/services/MovieInfoService.java" value="%5"/>
   <alias path="/movie-info-service/pom.xml" value="%1"/>
  </aliases>
  <includes/>

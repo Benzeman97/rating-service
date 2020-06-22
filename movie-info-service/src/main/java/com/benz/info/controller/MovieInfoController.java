@@ -6,16 +6,23 @@ import java.util.List;
 import javax.ws.rs.Produces;
 import javax.ws.rs.core.MediaType;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+import com.benz.info.exception.DataNotFoundException;
 import com.benz.info.model.Movie;
+import com.benz.info.model.MovieSummary;
+import com.benz.info.services.MovieInfoService;
 
 @RestController
 @RequestMapping("/movieInfo")
 public class MovieInfoController {
+	
+	@Autowired
+	MovieInfoService movieInfo_service;
 
 	@GetMapping("/all")
 	@Produces({MediaType.APPLICATION_JSON,MediaType.APPLICATION_XML})
@@ -30,8 +37,11 @@ public class MovieInfoController {
 	
 	@GetMapping("/{movieId}")
 	@Produces({MediaType.APPLICATION_JSON,MediaType.APPLICATION_XML})
-	public Movie getMovie(@PathVariable("movieId")int movieId)
+	public MovieSummary getMovie(@PathVariable("movieId")int movieId)
 	{
-		return new Movie(movieId,"Breaking Bad",2011,"USA");
+		if(movieId!=0)
+		return movieInfo_service.getMovieSummary(movieId);
+		else
+			throw new DataNotFoundException("Data Not Available");
 	}
 }

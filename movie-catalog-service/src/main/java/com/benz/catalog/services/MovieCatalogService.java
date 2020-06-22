@@ -1,7 +1,6 @@
 package com.benz.catalog.services;
 
-import java.util.ArrayList;
-import java.util.Arrays;
+
 import java.util.List;
 import java.util.stream.Collectors;
 
@@ -11,11 +10,11 @@ import org.springframework.cloud.client.ServiceInstance;
 import org.springframework.cloud.client.discovery.DiscoveryClient;
 import org.springframework.stereotype.Service;
 import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.client.RestTemplate;
 import org.springframework.web.reactive.function.client.WebClient;
 
 import com.benz.catalog.model.Movie;
 import com.benz.catalog.model.MovieCatalog;
+import com.benz.catalog.model.MovieSummary;
 import com.benz.catalog.model.UserRating;
 
 @Service
@@ -54,11 +53,11 @@ public class MovieCatalogService {
 			
 //			Movie movie=restTemplate.getForObject("http://movie-info-service/movieInfo/"+rating.getMovieId(),Movie.class);
 	
-			 Movie movie=webClient_builder.build().get().uri(info_service+rating.getMovieId())
-			       .retrieve().bodyToMono(Movie.class).block();
+			 MovieSummary movieSummary=webClient_builder.build().get().uri(info_service+rating.getMovieId())
+			       .retrieve().bodyToMono(MovieSummary.class).block();
 			 
 			 
-			return new MovieCatalog(movie.getMovieName(),"not bad",rating.getRating());
+			return new MovieCatalog(movieSummary.getOriginal_title(),movieSummary.getOverview(),rating.getRating());
 			
 		}).collect(Collectors.toList());
 		
