@@ -23,14 +23,13 @@ public class MovieCatalogController {
 
 	@GetMapping("/{userId}")
 	@Produces({MediaType.APPLICATION_JSON,MediaType.APPLICATION_XML})
-	public List<MovieCatalog> getMovieCatalog(@PathVariable("userId") int userId)
+	public List<MovieCatalog> getMovieCatalog(@PathVariable("userId") int userId) throws Exception
 	{
 		return movie_catalog_service.getMovieCatalog(userId);
 	}
 	
-	@GetMapping("/discoveryClient")
-	public void discoveryClient()
-	{
-		movie_catalog_service.discoveryClient();
-	}
+	/*
+	 * @GetMapping("/discoveryClient") public void discoveryClient() {
+	 * movie_catalog_service.discoveryClient(); }
+	 */
 }

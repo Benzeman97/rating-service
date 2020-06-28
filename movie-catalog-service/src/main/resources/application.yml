@@ -17,3 +17,9 @@ movie:
    info:
      service:
           url: http://movie-info-service/movieInfo/
+   overview1: "A group of juvenile delinquents lives a criminal, violent life in the festering slums of Mexico City, 
+   among them the young Pedro, whose morality is gradually corrupted and destroyed by the others."
+   overview2: "Schnitzel Paradise is a Dutch film about a young 
+   Moroccan man working in the kitchen of popular Dutch restaurant."
+   
+management:  endpoints:    web:      exposure:        include: hystrix.stream
