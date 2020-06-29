@@ -21,13 +21,9 @@ public class MovieSummaryService {
 	private String info_service;
 
 	@HystrixCommand(fallbackMethod = "getfallBackMovieCatalog",
-			commandProperties = {
-					@HystrixProperty(name = "execution.isolation.thread.timeoutInMilliseconds",
-							value = "3000"),
-					@HystrixProperty(name = "circuitBreaker.requestVolumeThreshold",
-					value = "6"),
-					@HystrixProperty(name = "circuitBreaker.errorThresholdPercentage", value = "50"),
-					@HystrixProperty(name = "circuitBreaker.sleepWindowInMilliseconds",value = "5000")
+			threadPoolKey="movieSummaryPool", threadPoolProperties= {
+					@HystrixProperty(name = "coreSize",value = "50"),
+					@HystrixProperty(name = "maxQueueSize",value = "25")
 			})
 	public MovieCatalog getMovieSummary(MovieRating rating) 
 	{

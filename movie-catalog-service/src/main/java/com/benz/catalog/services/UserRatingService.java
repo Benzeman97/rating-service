@@ -23,13 +23,9 @@ public class UserRatingService {
 	private String rating_service;
 
 	@HystrixCommand(fallbackMethod = "getfallBackUserRating",
-			commandProperties = {
-					@HystrixProperty(name = "execution.isolation.thread.timeoutInMilliseconds",
-							value = "3000"),
-					@HystrixProperty(name = "circuitBreaker.requestVolumeThreshold",
-					value = "6"),
-					@HystrixProperty(name = "circuitBreaker.errorThresholdPercentage", value = "50"),
-					@HystrixProperty(name = "circuitBreaker.sleepWindowInMilliseconds",value = "5000")
+			threadPoolKey="userRatingPool", threadPoolProperties= {
+					@HystrixProperty(name = "coreSize",value = "50"),
+					@HystrixProperty(name = "maxQueueSize",value = "25")
 			})
 	public UserRating getUserRating(int userId)
 	{

@@ -2964,3 +2964,31 @@ org.eclipse.core.runtime.CoreException: Could not resolve artifact org.springfra
 2020-06-28 20:07:29,391 [Worker-23: Launching movie-catalog-service - MovieCatalogServiceApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
 2020-06-28 20:07:29,395 [Worker-23: Launching movie-catalog-service - MovieCatalogServiceApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2020-06-28 20:07:29,395 [Worker-23: Launching movie-catalog-service - MovieCatalogServiceApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Final Year Project\rating-service\movie-catalog-service\src\test\resources
+2020-06-29 06:14:57,028 [Worker-5: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2020-06-29 08:20:37,398 [Start Help Server] INFO  org.eclipse.jetty.util.log - Logging initialized @7889581ms to org.eclipse.jetty.util.log.Slf4jLog
+2020-06-29 08:20:38,392 [Start Help Server] INFO  org.eclipse.jetty.server.Server - jetty-9.4.27.v20200227; built: 2020-03-02T14:40:42.212Z; git: a304fd9f351f337e7c0e2a7c28878dd536149c6c; jvm 11.0.3+12-LTS
+2020-06-29 08:20:38,466 [Start Help Server] INFO  org.eclipse.jetty.server.session - DefaultSessionIdManager workerName=node0
+2020-06-29 08:20:38,466 [Start Help Server] INFO  org.eclipse.jetty.server.session - No SessionScavenger set, using defaults
+2020-06-29 08:20:38,467 [Start Help Server] INFO  org.eclipse.jetty.server.session - node0 Scavenging every 660000ms
+2020-06-29 08:20:38,569 [Start Help Server] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@31e0fa35{/help,null,AVAILABLE}
+2020-06-29 08:20:38,636 [Start Help Server] INFO  o.e.jetty.server.AbstractConnector - Started ServerConnector@3062f1da{HTTP/1.1, (http/1.1)}{127.0.0.1:60051}
+2020-06-29 08:20:38,636 [Start Help Server] INFO  org.eclipse.jetty.server.Server - Started @7890842ms
+2020-06-29 08:20:38,636 [Start Help Server] INFO  org.eclipse.jetty.server.session - node0 Scavenging every 726000ms
+2020-06-29 08:24:30,591 [Worker-103: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-29 08:24:30,595 [Worker-103: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-06-29 08:24:30,680 [Worker-103: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-06-29 08:24:30,683 [Worker-103: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-29 08:24:30,683 [Worker-103: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Final Year Project\rating-service\movie-catalog-service\src\test\resources
+2020-06-29 08:37:23,340 [Worker-106: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-29 08:37:23,367 [Worker-106: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-06-29 08:37:23,381 [Worker-106: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-06-29 08:37:23,383 [Worker-106: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-29 08:37:23,383 [Worker-106: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Final Year Project\rating-service\movie-catalog-service\src\test\resources
+2020-06-29 08:37:26,452 [Worker-112: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-29 08:37:26,453 [Worker-112: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-06-29 08:37:26,457 [Worker-112: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-06-29 08:37:26,459 [Worker-112: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-06-29 08:37:26,459 [Worker-112: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Final Year Project\rating-service\movie-catalog-service\src\test\resources
+2020-06-29 08:44:19,376 [Stop Help Server] INFO  o.e.jetty.server.AbstractConnector - Stopped ServerConnector@3062f1da{HTTP/1.1, (http/1.1)}{127.0.0.1:0}
+2020-06-29 08:44:19,376 [Stop Help Server] INFO  org.eclipse.jetty.server.session - node0 Stopped scavenging
+2020-06-29 08:44:19,449 [Stop Help Server] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@31e0fa35{/help,null,UNAVAILABLE}

@@ -55,9 +55,9 @@
     <fullyQualifiedTypeName name="com.benz.catalog.services.UserRatingService"/>
     <fullyQualifiedTypeName name="com.benz.catalog.model.MovieSummary"/>
     <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
-    <fullyQualifiedTypeName name="com.netflix.hystrix.contrib.javanica.annotation.HystrixProperty"/>
     <fullyQualifiedTypeName name="com.benz.catalog.model.UserRating"/>
     <fullyQualifiedTypeName name="java.lang.System"/>
     <fullyQualifiedTypeName name="java.lang.Exception"/>
     <fullyQualifiedTypeName name="org.springframework.cloud.netflix.hystrix.dashboard.EnableHystrixDashboard"/>
+    <fullyQualifiedTypeName name="com.netflix.hystrix.contrib.javanica.annotation.HystrixProperty"/>
 </qualifiedTypeNameHistroy>
