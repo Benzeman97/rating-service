@@ -15,6 +15,7 @@
   <path value="C:/Users/User/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar"/>
   <path value="C:/Users/User/.m2/repository/org/mockito/mockito-core/3.3.3/mockito-core-3.3.3.jar"/>
   <path value="C:/Users/User/.m2/repository/io/netty/netty-codec-http2/4.1.50.Final/netty-codec-http2-4.1.50.Final.jar"/>
+  <path value="C:/Users/User/.m2/repository/org/springframework/cloud/spring-cloud-config-client/2.2.3.RELEASE/spring-cloud-config-client-2.2.3.RELEASE.jar"/>
   <path value="C:/Users/User/.m2/repository/org/antlr/antlr-runtime/3.4/antlr-runtime-3.4.jar"/>
   <path value="C:/Users/User/.m2/repository/org/springframework/boot/spring-boot-starter-reactor-netty/2.3.1.RELEASE/spring-boot-starter-reactor-netty-2.3.1.RELEASE.jar"/>
   <path value="C:/Users/User/.m2/repository/io/micrometer/micrometer-core/1.5.1/micrometer-core-1.5.1.jar"/>
@@ -201,6 +202,7 @@
   <path value="C:/Users/User/.m2/repository/io/projectreactor/reactor-core/3.3.6.RELEASE/reactor-core-3.3.6.RELEASE.jar"/>
   <path value="C:/Users/User/.m2/repository/com/netflix/ribbon/ribbon-transport/2.3.0/ribbon-transport-2.3.0.jar"/>
   <path value="C:/Users/User/.m2/repository/org/ow2/asm/asm-tree/7.1/asm-tree-7.1.jar"/>
+  <path value="C:/Users/User/.m2/repository/org/springframework/boot/spring-boot-configuration-processor/2.3.1.RELEASE/spring-boot-configuration-processor-2.3.1.RELEASE.jar"/>
   <path value="C:/Users/User/.m2/repository/org/glassfish/hk2/external/jakarta.inject/2.6.1/jakarta.inject-2.6.1.jar"/>
   <path value="C:/Users/User/.m2/repository/org/skyscreamer/jsonassert/1.5.0/jsonassert-1.5.0.jar"/>
   <path value="C:/Users/User/.m2/repository/org/glassfish/jersey/ext/jersey-entity-filtering/2.30.1/jersey-entity-filtering-2.30.1.jar"/>
@@ -231,44 +233,61 @@
  <validation>
   <core validator-id="jboss.cdi.core"/>
   <el>
-   <linked-el length="23" name="%0" offset="3292" path="%1"/>
-   <linked-el length="27" name="%2" offset="673" path="%3"/>
-   <linked-el length="20" name="%2" offset="1272" path="%4"/>
-   <linked-el length="20" name="%2" offset="1218" path="%4"/>
-   <linked-el length="27" name="%5" offset="673" path="%3"/>
-   <linked-el length="28" name="%6" offset="654" path="%7"/>
-   <linked-el length="28" name="%8" offset="654" path="%7"/>
-   <linked-el length="28" name="%9" offset="654" path="%7"/>
-   <linked-el length="20" name="%10" offset="1218" path="%4"/>
-   <linked-el length="23" name="%11" offset="3292" path="%1"/>
-   <linked-el length="23" name="%12" offset="3292" path="%1"/>
-   <linked-el length="20" name="%13" offset="1272" path="%4"/>
-   <linked-el length="27" name="%14" offset="673" path="%3"/>
-   <linked-el length="27" name="%15" offset="673" path="%3"/>
-   <linked-el length="28" name="%16" offset="654" path="%7"/>
+   <linked-el length="12" name="%0" offset="1384" path="%1"/>
+   <linked-el length="20" name="%0" offset="1432" path="%1"/>
+   <linked-el length="20" name="%0" offset="1498" path="%1"/>
+   <linked-el length="17" name="%0" offset="1326" path="%1"/>
+   <linked-el length="23" name="%2" offset="3956" path="%3"/>
+   <linked-el length="20" name="%4" offset="1498" path="%1"/>
+   <linked-el length="27" name="%5" offset="673" path="%6"/>
+   <linked-el length="20" name="%5" offset="1272" path="%7"/>
+   <linked-el length="20" name="%5" offset="1218" path="%7"/>
+   <linked-el length="27" name="%8" offset="673" path="%6"/>
+   <linked-el length="28" name="%9" offset="656" path="%10"/>
+   <linked-el length="12" name="%11" offset="1384" path="%1"/>
+   <linked-el length="20" name="%12" offset="1432" path="%1"/>
+   <linked-el length="28" name="%13" offset="656" path="%10"/>
+   <linked-el length="20" name="%14" offset="1432" path="%1"/>
+   <linked-el length="28" name="%15" offset="656" path="%10"/>
+   <linked-el length="17" name="%16" offset="1326" path="%1"/>
+   <linked-el length="20" name="%17" offset="1218" path="%7"/>
+   <linked-el length="23" name="%18" offset="3956" path="%3"/>
+   <linked-el length="23" name="%19" offset="3956" path="%3"/>
+   <linked-el length="20" name="%20" offset="1272" path="%7"/>
+   <linked-el length="27" name="%21" offset="673" path="%6"/>
+   <linked-el length="27" name="%22" offset="673" path="%6"/>
+   <linked-el length="28" name="%23" offset="656" path="%10"/>
   </el>
  </validation>
  <aliases>
-  <alias path="cloud.version" value="%0"/>
-  <alias path="movie" value="%2"/>
-  <alias path="/movie-catalog-service/pom.xml" value="%1"/>
+  <alias path="app" value="%0"/>
+  <alias path="cloud.version" value="%2"/>
+  <alias path="app.dbValues" value="%4"/>
+  <alias path="movie" value="%5"/>
+  <alias path="/movie-catalog-service/pom.xml" value="%3"/>
   <alias
-   path="/movie-catalog-service/src/main/java/com/benz/catalog/services/MovieCatalogService.java" value="%4"/>
-  <alias path="movie.info.service" value="%5"/>
-  <alias path="rating" value="%6"/>
-  <alias path="rating.data" value="%8"/>
+   path="/movie-catalog-service/src/main/java/com/benz/catalog/services/MovieCatalogService.java" value="%7"/>
+  <alias path="movie.info.service" value="%8"/>
+  <alias path="rating" value="%9"/>
+  <alias path="app.msg" value="%11"/>
+  <alias path="app.list.values" value="%12"/>
+  <alias path="rating.data" value="%13"/>
   <alias
-   path="/movie-catalog-service/src/main/java/com/benz/catalog/services/UserRatingService.java" value="%7"/>
-  <alias path="rating.data.service.url" value="%9"/>
-  <alias path="movie.overview1" value="%10"/>
-  <alias path="spring" value="%11"/>
-  <alias path="cloud" value="%12"/>
-  <alias path="movie.overview2" value="%13"/>
-  <alias path="movie.info.service.url" value="%14"/>
-  <alias path="movie.info" value="%15"/>
+   path="/movie-catalog-service/src/main/java/com/benz/catalog/services/UserRatingService.java" value="%10"/>
+  <alias path="app.list" value="%14"/>
+  <alias path="rating.data.service.url" value="%15"/>
+  <alias path="app.greeting" value="%16"/>
+  <alias path="movie.overview1" value="%17"/>
+  <alias path="spring" value="%18"/>
+  <alias path="cloud" value="%19"/>
+  <alias path="movie.overview2" value="%20"/>
+  <alias path="movie.info.service.url" value="%21"/>
+  <alias path="movie.info" value="%22"/>
   <alias
-   path="/movie-catalog-service/src/main/java/com/benz/catalog/services/MovieSummaryService.java" value="%3"/>
-  <alias path="rating.data.service" value="%16"/>
+   path="/movie-catalog-service/src/main/java/com/benz/catalog/services/MovieSummaryService.java" value="%6"/>
+  <alias
+   path="/movie-catalog-service/src/main/java/com/benz/catalog/controller/MovieCatalogController.java" value="%1"/>
+  <alias path="rating.data.service" value="%23"/>
  </aliases>
  <includes/>
  <uris/>

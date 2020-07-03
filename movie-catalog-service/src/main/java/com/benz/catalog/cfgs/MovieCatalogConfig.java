@@ -19,6 +19,8 @@ import org.springframework.http.client.reactive.ReactorClientHttpConnector;
 import org.springframework.web.client.RestTemplate;
 import org.springframework.web.reactive.function.client.WebClient;
 
+import com.benz.catalog.model.DbSetting;
+
 import io.netty.channel.ChannelOption;
 import io.netty.handler.timeout.ReadTimeoutHandler;
 import reactor.core.publisher.Mono;
@@ -61,5 +63,11 @@ public class MovieCatalogConfig {
 //				.clientConnector(connector)
 //				.defaultHeader(HttpHeaders.CONTENT_TYPE,MediaType.APPLICATION_JSON_VALUE)
 //				.build();
+	}
+	
+	@Bean
+	public DbSetting getDbSetting()
+	{
+		return new DbSetting();
 	}
 }

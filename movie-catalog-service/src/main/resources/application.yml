@@ -1,25 +1,4 @@
-
-server:  port: 8081
-  
-spring:  datasource:    url: "jdbc:oracle:thin:@localhost:1521:orcl"
-    username: HR
-    password: 14292
-    driver-class-name: oracle.jdbc.OracleDriver
-  jpa:    database-platform: org.hibernate.dialect.Oracle10gDialect
-  application:    name: movie-catalog-service
+spring:
+  profiles:
+    active: dev
     
-rating:
-    data:
-      service:
-          url: http://rating-data-service/rating/user/
-          
-movie:
-   info:
-     service:
-          url: http://movie-info-service/movieInfo/
-   overview1: "A group of juvenile delinquents lives a criminal, violent life in the festering slums of Mexico City, 
-   among them the young Pedro, whose morality is gradually corrupted and destroyed by the others."
-   overview2: "Schnitzel Paradise is a Dutch film about a young 
-   Moroccan man working in the kitchen of popular Dutch restaurant."
-   
-management:  endpoints:    web:      exposure:        include: hystrix.stream

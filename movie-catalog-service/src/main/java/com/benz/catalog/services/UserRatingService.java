@@ -18,7 +18,7 @@ public class UserRatingService {
 	@Autowired
 	WebClient.Builder webClient_builder;
 	
-
+  
 	@Value("${rating.data.service.url}")
 	private String rating_service;
 

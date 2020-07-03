@@ -114,11 +114,11 @@
    <libraries>
     <library class="tld">
      <id class="model-object"
-      path="FileSystems/lib-spring-webmvc-5.2.7.RELEASE.jar/meta-inf/spring-form.tld" project="rating-data-service"/>
+      path="FileSystems/lib-spring-webmvc-5.2.7.RELEASE.jar/meta-inf/spring-form.tld" project="movie-catalog-service"/>
     </library>
     <library class="tld">
      <id class="model-object"
-      path="FileSystems/lib-spring-webmvc-5.2.7.RELEASE.jar/meta-inf/spring.tld" project="rating-data-service"/>
+      path="FileSystems/lib-spring-webmvc-5.2.7.RELEASE.jar/meta-inf/spring.tld" project="movie-catalog-service"/>
     </library>
    </libraries>
   </path>
