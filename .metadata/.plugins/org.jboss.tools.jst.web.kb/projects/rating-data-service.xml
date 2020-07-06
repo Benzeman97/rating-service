@@ -14,6 +14,7 @@
   <path value="C:/Users/User/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar"/>
   <path value="C:/Users/User/.m2/repository/org/mockito/mockito-core/3.3.3/mockito-core-3.3.3.jar"/>
   <path value="C:/Users/User/.m2/repository/io/netty/netty-codec-http2/4.1.50.Final/netty-codec-http2-4.1.50.Final.jar"/>
+  <path value="C:/Users/User/.m2/repository/org/springframework/cloud/spring-cloud-config-client/2.2.3.RELEASE/spring-cloud-config-client-2.2.3.RELEASE.jar"/>
   <path value="C:/Users/User/.m2/repository/org/antlr/antlr-runtime/3.4/antlr-runtime-3.4.jar"/>
   <path value="C:/Users/User/.m2/repository/org/springframework/boot/spring-boot-starter-reactor-netty/2.3.1.RELEASE/spring-boot-starter-reactor-netty-2.3.1.RELEASE.jar"/>
   <path value="C:/Users/User/.m2/repository/org/glassfish/hk2/hk2-utils/2.6.1/hk2-utils-2.6.1.jar"/>
@@ -210,10 +211,11 @@
   <path value="C:/Users/User/.m2/repository/org/objenesis/objenesis/2.6/objenesis-2.6.jar"/>
  </paths>
  <validation>
+  <core validator-id="jboss.cdi.core"/>
   <el>
-   <linked-el length="23" name="%0" offset="2317" path="%1"/>
-   <linked-el length="23" name="%2" offset="2317" path="%1"/>
-   <linked-el length="23" name="%3" offset="2317" path="%1"/>
+   <linked-el length="23" name="%0" offset="2555" path="%1"/>
+   <linked-el length="23" name="%2" offset="2555" path="%1"/>
+   <linked-el length="23" name="%3" offset="2555" path="%1"/>
   </el>
  </validation>
  <aliases>
