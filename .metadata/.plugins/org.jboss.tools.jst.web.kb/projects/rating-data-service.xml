@@ -115,11 +115,11 @@
    <libraries>
     <library class="tld">
      <id class="model-object"
-      path="FileSystems/lib-spring-webmvc-5.2.7.RELEASE.jar/meta-inf/spring-form.tld" project="movie-catalog-service"/>
+      path="FileSystems/lib-spring-webmvc-5.2.7.RELEASE.jar/meta-inf/spring-form.tld" project="eureka-discovery-server"/>
     </library>
     <library class="tld">
      <id class="model-object"
-      path="FileSystems/lib-spring-webmvc-5.2.7.RELEASE.jar/meta-inf/spring.tld" project="movie-catalog-service"/>
+      path="FileSystems/lib-spring-webmvc-5.2.7.RELEASE.jar/meta-inf/spring.tld" project="eureka-discovery-server"/>
     </library>
    </libraries>
   </path>
@@ -211,7 +211,6 @@
   <path value="C:/Users/User/.m2/repository/org/objenesis/objenesis/2.6/objenesis-2.6.jar"/>
  </paths>
  <validation>
-  <core validator-id="jboss.cdi.core"/>
   <el>
    <linked-el length="23" name="%0" offset="2555" path="%1"/>
    <linked-el length="23" name="%2" offset="2555" path="%1"/>

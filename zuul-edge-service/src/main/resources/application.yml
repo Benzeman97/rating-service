@@ -1,0 +1,47 @@
+zuul:
+  prefix: /api
+  routes:
+      web-portal:
+               path: /web/**
+               service-id: web-portal
+      movie-catalog:
+               path: /catalog/**
+               service-id: movie-catalog-service
+      movie-info:
+               path: /info/**
+               service-id: movie-info-service
+      rating-data:
+               path: /rating/**
+               service-id: rating-data-service
+  host:
+     socket-timeout-millis: 60000
+     connect-timeout-millis: 60000
+               
+server:  port: 9094
+  
+spring:  application:    name: sluth-zuul
+  datasource:
+    url: "jdbc:oracle:thin:@localhost:1521:orcl"
+    username: HR
+    password: 14292
+    driver-class-name: oracle.jdbc.OracleDriver
+  jpa:
+    database-platform: org.hibernate.dialect.Oracle10gDialect        
+     
+ribbon:
+   ConnectTimeout: 60000
+   ReadTimeout: 60000
+   
+token:
+   exp:
+     time: 129600600
+
+log:
+  rounds: 12
+
+secret:
+    key: "ssh-rsa AAAAB3NzaC1yc2EAAAABJQAAAQEAheBY2g+o3+6DlXPMaNu9Q9YDRHC3zd3o4xeija1eH1vMZkYDyJQNIHB97AECtmWxBb0Ixg0sIbMAW0/pvJeAA/TatFNgKaVdrfrmfSRKyAyAfIy8WDG89rfGGkc2kNkV25c6tcy4cO3ikRxSB4N8LUxeoqmBBSgNsdBkX7mW1msyo70V0gBWdl3A51TvqoL+eWRxfATBvSCsmS7DtOuAcBMpemweiHyQ3XRpg54tNsODzj4AR0IvamOXEhZBhuz0bzapIg8UOWmCdWMrnOBCrljxNgqlHyfY59iLSfLPbSRVsLWgiAtFjLbwAvxgqKJM2GWKOGIBGUl9bzWIBZmsVw== rsa-key-20200722"
+
+     
+  
+      

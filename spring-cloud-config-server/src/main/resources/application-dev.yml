@@ -3,4 +3,4 @@ spring:
     config:
       server:
         git:
-          uri: "https://github.com/Benzeman97/spring-cloud-config-server-repo"
+          uri: "D://Final Year Project/spring-cloud-config-server-git"
